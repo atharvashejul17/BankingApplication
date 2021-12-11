@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newshub"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:5:5-30:19
+12        android:allowBackup="true"
+12-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] C:\Users\athar\.gradle\caches\transforms-2\files-2.1\034642df4a497845fe8cd31a578bcbab\core-1.6.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/banking_icon"
+16-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:7:9-44
+17        android:label="@string/app_name"
+17-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/banking_icon_round"
+18-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:9:9-55
+19        android:supportsRtl="true"
+19-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.BankingApp" >
+21-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:11:9-48
+22        <activity
+22-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:12:9-20:20
+23            android:name="com.itsamankrsingh.bankingapp.SplashScreen"
+23-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:13:13-41
+24            android:exported="true" >
+24-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:14:13-36
+25            <intent-filter>
+25-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:15:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:16:17-69
+26-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:18:17-77
+28-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:21:9-29:20
+32            android:name="com.itsamankrsingh.bankingapp.ui.MainActivity"
+32-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:22:13-44
+33            android:theme="@style/splashScreenTheme" >
+33-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:23:13-53
+34            <intent-filter>
+34-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:15:13-19:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:16:17-69
+35-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:16:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:18:17-77
+37-->C:\Users\athar\AndroidStudioProjects\Banking-App\app\src\main\AndroidManifest.xml:18:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[androidx.room:room-runtime:2.3.0] C:\Users\athar\.gradle\caches\transforms-2\files-2.1\3eeb5f2f918aec2065e668e19334a3ee\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+42            android:name="androidx.room.MultiInstanceInvalidationService"
+42-->[androidx.room:room-runtime:2.3.0] C:\Users\athar\.gradle\caches\transforms-2\files-2.1\3eeb5f2f918aec2065e668e19334a3ee\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+43            android:directBootAware="true"
+43-->[androidx.room:room-runtime:2.3.0] C:\Users\athar\.gradle\caches\transforms-2\files-2.1\3eeb5f2f918aec2065e668e19334a3ee\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.3.0] C:\Users\athar\.gradle\caches\transforms-2\files-2.1\3eeb5f2f918aec2065e668e19334a3ee\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+45    </application>
+46
+47</manifest>
